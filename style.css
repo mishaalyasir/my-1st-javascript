@@ -1,0 +1,170 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: hsl(325, 42%, 69%);
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading, .image {
+    flex: 1 1 100%;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .heading, .image {
+        flex: 1 1 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .heading, .image {
+        flex: 1 1 40%;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.heading h1{
+font-size: 70px;
+
+}
+.heading p{
+    font-size: 20px;
+}
+.image img{
+    height: 300px;
+    width: 500px;
+}
+header h1{
+    font-size: 20px;
+}
+.container {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.container .card{
+    margin: 50px;
+}
+.container {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.container .form-group{
+    margin: 30px 500px;
+}
+.container button{
+    margin: 0px 550px;
+}
+
+
+
